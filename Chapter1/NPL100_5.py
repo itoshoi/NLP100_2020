@@ -1,10 +1,10 @@
 import re
 
 
-def n_gram(list, n):
+def n_gram(_list, n):
     result = []
-    for i in range(len(list) - n + 1):
-        result.append(list[i:i+n])
+    for i in range(len(_list) - n + 1):
+        result.append(_list[i:i+n])
     return result
 
 
