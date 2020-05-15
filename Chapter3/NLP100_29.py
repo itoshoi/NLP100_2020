@@ -1,6 +1,7 @@
 import NLP100_28
 import requests
 import webbrowser
+# from pprint import pprint
 
 def get_url(titles):
     S = requests.Session()
@@ -18,6 +19,7 @@ def get_url(titles):
     R = S.get(url=URL, params=PARAMS)
 
     DATA = R.json()
+    # pprint(DATA)
 
     PAGES = DATA["query"]["pages"]
 

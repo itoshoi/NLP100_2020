@@ -10,13 +10,13 @@ def get_template_dict():
 
     p = re.compile(r'\|(.+?)\s*=\s*(.+?(\n\*.+?)*)\n', re.DOTALL)
 
-    dict = {}
+    dictionary = {}
     for l in p.findall(template):
-        dict[l[0]] = l[1]
+        dictionary[l[0]] = l[1]
     
-    return dict
+    return dictionary
 
 if __name__ == "__main__":
-    dict = get_template_dict()
-    for k, v in dict.items():
+    dictionary = get_template_dict()
+    for k, v in dictionary.items():
         print('{key}: {value}'.format(key=k, value=v))
