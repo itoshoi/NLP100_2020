@@ -8,6 +8,10 @@ verify_ssl = true
 [packages]
 autopep8 = "*"
 requests = "*"
+mecab = "*"
+mecab-python3 = "*"
+matplotlib = "*"
+pyfpgrowth = "*"
 
 [requires]
 python_version = "3.7"
