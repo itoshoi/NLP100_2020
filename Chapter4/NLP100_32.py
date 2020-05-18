@@ -5,7 +5,8 @@
 
 import NLP100_30
 
-morpheme_list = NLP100_30.get_morpheme()
-for morpheme in morpheme_list:
-    if morpheme["pos"] == "動詞":
-        print(morpheme["base"])
+sentence_list = NLP100_30.get_morpheme()
+for morpheme_list in sentence_list:
+    for morpheme in morpheme_list:
+        if morpheme["pos"] == "動詞":
+            print(morpheme["base"])

@@ -4,17 +4,19 @@
 """
 
 import NLP100_30
+from pprint import pprint
 
 def get_morpheme_frequency():
     result = {}
-    morpheme_list = NLP100_30.get_morpheme()
+    sentence_list = NLP100_30.get_morpheme()
 
-    for morpheme in morpheme_list:
-        if morpheme['surface'] in result:
-            result[morpheme['surface']] += 1
-        else:
-            result[morpheme['surface']] = 1
+    for morpheme_list in sentence_list:
+        for morpheme in morpheme_list:
+            if morpheme['surface'] in result:
+                result[morpheme['surface']] += 1
+            else:
+                result[morpheme['surface']] = 1
     return sorted(result.items(), key=lambda x:x[1], reverse=True)
 
 if __name__ == "__main__":
-    print(get_morpheme_frequency())
+    pprint(get_morpheme_frequency())

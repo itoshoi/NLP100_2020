@@ -6,14 +6,18 @@
 第4章の残りの問題では，ここで作ったプログラムを活用せよ．
 """
 
-import MeCab
+from pprint import pprint
 
 fname = "neko.txt.mecab"
 
 def get_morpheme():
     with open(fname) as f:
         result_list = []
+        sentence = []
         for line in f:
+            if line == "EOS\n" and 0 < len(sentence):
+                result_list.append(sentence[:])
+                sentence.clear()
             line_sp_tab = line.split('\t')
             if len(line_sp_tab) < 2:
                 continue
@@ -24,9 +28,9 @@ def get_morpheme():
                 'pos':line_sp_comma[0],
                 'pos1':line_sp_comma[1]
             }
-            result_list.append(morpheme)
-        return result_list
+            sentence.append(morpheme)
+    return result_list
 
 if __name__ == "__main__":
     for morpheme in get_morpheme():
-        print(morpheme)
+        pprint(morpheme)

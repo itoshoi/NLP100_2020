@@ -5,17 +5,18 @@
 
 import NLP100_30
 
-morpheme_list = NLP100_30.get_morpheme()
+sentence_list = NLP100_30.get_morpheme()
 
 result = []
 connection_list = []
-for morpheme in morpheme_list:
-    if morpheme['pos'] == '名詞':
-        connection_list.append(morpheme['surface'])
-    else:
-        if 0 < len(connection_list):
-            result.append(connection_list[:])
-            connection_list.clear()
+for morpheme_list in sentence_list:
+    for morpheme in morpheme_list:
+        if morpheme['pos'] == '名詞':
+            connection_list.append(morpheme['surface'])
+        else:
+            if 0 < len(connection_list):
+                result.append(connection_list[:])
+                connection_list.clear()
 
 for con in result:
     print(''.join(con))

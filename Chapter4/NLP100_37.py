@@ -8,25 +8,11 @@ import pyfpgrowth
 import matplotlib.pyplot as plt
 from pprint import pprint
 
-morpheme_list = NLP100_30.get_morpheme()
-
-# 形態素解析の結果のタプルを文区切りにして、リストにしたもの
-def get_sentence_list():
-    sentence_list = []
-    sentence = []
-    for morpheme in morpheme_list:
-        sentence.append(morpheme)
-        # 「。」が来たら一文とする
-        if morpheme['surface'] == "。":
-            sentence_list.append(sentence[:])
-            sentence.clear()
-    return sentence_list
-
 # pyfpgrowthを使って共起頻度を求める
 def get_co_occurrence_words_by_pyfpgrowth(target):
     # 共起語に含める語の品詞
     TARGET_POS = ['名詞', '動詞']
-    sentence_list = get_sentence_list()
+    sentence_list = NLP100_30.get_morpheme()
     # タプルのリストから、語(表層形)のリストのリストに変換 (ここで品詞も選別)
     sentence_surface_list = [[morpheme['surface'] for morpheme in s if morpheme['pos'] in TARGET_POS] for s in sentence_list]
     co_sentence_list = []
