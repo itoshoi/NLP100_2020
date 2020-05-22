@@ -1,0 +1,18 @@
+吾輩は
+dst=0, srcs=[0]
+
+ここで
+dst=1, srcs=[1]
+
+始めて
+dst=2, srcs=[2]
+
+人間という
+dst=3, srcs=[3]
+
+ものを
+dst=4, srcs=[4]
+
+見た。
+dst=5, srcs=[5]
+

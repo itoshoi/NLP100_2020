@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "2cb6575ef69b2a5afd4def9d1895b6cdd1c0ccd5653cb3c68631fb9b024f85a7"
+            "sha256": "d4e59d768c37761cd7ad7eb5e71a91aff8011276fe36a71f62547e8290e83f59"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -174,6 +174,13 @@
                 "sha256:c58a7d2815e0e8d7972bf1803331fb0152f867bd89adf8a01dfd55085434192e"
             ],
             "version": "==2.6.0"
+        },
+        "pydotplus": {
+            "hashes": [
+                "sha256:91e85e9ee9b85d2391ead7d635e3d9c7f5f44fd60a60e59b13e2403fa66505c4"
+            ],
+            "index": "pypi",
+            "version": "==2.0.2"
         },
         "pyfpgrowth": {
             "hashes": [

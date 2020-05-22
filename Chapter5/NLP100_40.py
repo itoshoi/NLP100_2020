@@ -22,9 +22,9 @@ class Morph:
 
 
 def get_sentence_list():
+    result_list = []
+    sentence = []
     with open(fname) as f:
-        result_list = []
-        sentence = []
         for line in f:
             if line == "EOS\n" and 0 < len(sentence):
                 result_list.append(sentence[:])
