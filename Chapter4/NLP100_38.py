@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 morpheme_freq_list = NLP100_35.get_morpheme_frequency()
 counts = [m[1] for m in morpheme_freq_list]
 
-plt.hist(counts, range=(10, 100))
+plt.hist(counts)
 plt.show()
 
 # 37の場合

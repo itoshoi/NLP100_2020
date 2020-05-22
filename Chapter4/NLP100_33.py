@@ -17,7 +17,7 @@ for morpheme_list in sentence_list:
     for i in range(1, len(morpheme_list) - 1):
         prev = morpheme_list[i-1]
         now = morpheme_list[i]
-        next = morpheme_list[i+1]
+        mnext = morpheme_list[i+1]
         if now['surface'] == 'の':
-            if prev['pos'] == '名詞' and next['pos'] == '名詞':
-                print(prev['surface'] + now['surface'] + next['surface'])
+            if prev['pos'] == '名詞' and mnext['pos'] == '名詞':
+                print(prev['surface'] + now['surface'] + mnext['surface'])

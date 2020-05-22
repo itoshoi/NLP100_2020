@@ -18,5 +18,7 @@ def get_morpheme_frequency():
                 result[morpheme['surface']] = 1
     return sorted(result.items(), key=lambda x:x[1], reverse=True)
 
+# collections.Counterを使えばもっと楽
+
 if __name__ == "__main__":
     pprint(get_morpheme_frequency())
