@@ -4,13 +4,16 @@
 """
 
 import NLP100_35
+import matplotlib
+matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 
 morpheme_freq_list = NLP100_35.get_morpheme_frequency()
 counts = [m[1] for m in morpheme_freq_list]
 
 plt.hist(counts)
-plt.show()
+plt.savefig("NLP100_38_result.png")
+# plt.show()
 
 # 37の場合
 # import NLP100_37

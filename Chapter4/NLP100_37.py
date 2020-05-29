@@ -5,6 +5,8 @@
 
 import NLP100_30
 import pyfpgrowth
+import matplotlib
+matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 from pprint import pprint
 
@@ -31,4 +33,5 @@ if __name__ == "__main__":
     words = [",".join(map(str, w[0])) for w in co_occ_words]
     counts = [w[1] for w in co_occ_words]
     plt.bar(words[:10], counts[:10])
-    plt.show()
+    plt.savefig("NLP100_37_result.png")
+    # plt.show()

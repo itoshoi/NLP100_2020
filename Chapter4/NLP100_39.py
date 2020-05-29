@@ -4,6 +4,8 @@
 """
 
 import NLP100_35
+import matplotlib
+matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 
 morpheme_freq_list = NLP100_35.get_morpheme_frequency()
@@ -16,4 +18,5 @@ ax = plt.gca()
 ax.set_yscale('log')
 ax.set_xscale('log')
 
-plt.show()
+plt.savefig("NLP100_39_result.png")
+# plt.show()

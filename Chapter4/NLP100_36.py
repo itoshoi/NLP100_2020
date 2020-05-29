@@ -4,6 +4,8 @@
 """
 
 import NLP100_35
+import matplotlib
+matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 
 morpheme_list = NLP100_35.get_morpheme_frequency()
@@ -11,6 +13,7 @@ morpheme_list = NLP100_35.get_morpheme_frequency()
 x, y = zip(*morpheme_list)
 
 plt.bar(x[:10], y[:10])
-plt.show()
+# plt.show()
+plt.savefig("NLP100_36_result.png")
 
 # matplotlibの日本語フォントはmatplotlibrcのfontfamilyを書き換えることで対応した
