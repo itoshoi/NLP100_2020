@@ -34,3 +34,9 @@ for sentence in sentence_list:
                 result += " ".join(filter(lambda l: l != "", ["".join(
                     [m.surface for m in sentence[i].morphs if m.pos == "助詞"]) for i in chunk.srcs]))
                 print(result)
+
+'''
+UNIX コマンド
+sort NLP100_45_result.txt | uniq -c | sort -r > NLP100_45_unix.txt
+grep 'する|見る|与える' NLP100_45_result.txt | sort | uniq -c | sort -r > NLP100_45_unix2.txt
+'''

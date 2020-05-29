@@ -41,3 +41,10 @@ for sentence in sentence_list:
                         result += " ".join(filter(lambda l: l != "", ["".join(
                             set([sentence[i].get_morphs_surface() for m in sentence[i].morphs if m.pos == "助詞"])) for i in verb_chunk.srcs]))
                         print(result)
+
+
+'''
+UNIX コマンド
+cut -f 1 NLP100_47_result.txt | sort | uniq -c | sort -r
+sort NLP100_47_result.txt | uniq -c | sort -r
+'''
