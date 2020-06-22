@@ -13,6 +13,11 @@ mecab-python3 = "*"
 matplotlib = "*"
 pyfpgrowth = "*"
 pydotplus = "*"
+nltk = "*"
+spacy = "*"
+sklearn = "*"
+pandas = "*"
+seaborn = "*"
 
 [requires]
 python_version = "3.7"

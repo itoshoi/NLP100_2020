@@ -16,12 +16,11 @@ class Chunk:
     def __init__(self):
         self.morphs = []
         self.srcs = []
+        # 係り先がないときは-1
         self.dst = -1
 
     def get_morphs_surface(self):
-        import re
-        p = re.compile(r"。|、|\s")
-        return p.sub("", "".join([morph.surface for morph in self.morphs]))
+        return "".join([morph.surface for morph in self.morphs if morph.pos != '記号'])
 
 def get_chunk_sentence_list(fname):
     result_list = []
@@ -29,7 +28,8 @@ def get_chunk_sentence_list(fname):
     with open(fname) as f:
         for line in f:
             # EOSが出てきたら1文とする
-            if line == "EOS\n" and 0 < len(sentence):
+            # if line == "EOS\n" and 0 < len(sentence):
+            if line == "EOS\n":
                 # 係り元を設定
                 for i in range(len(sentence)):
                     chunk = sentence[i]
@@ -58,12 +58,13 @@ if __name__ == "__main__":
     from pprint import pprint
     fname = sys.argv[1]
     chunk_sentence_list = get_chunk_sentence_list(fname)
-    for chunk_sentence in chunk_sentence_list:
-        for chunk in chunk_sentence:
-            print("".join([morph.surface for morph in chunk.morphs]))
-            print("dst={}, srcs={}".format(chunk.dst, chunk.srcs))
+    # for chunk_sentence in chunk_sentence_list:
+        # for chunk in chunk_sentence:
+            # print("".join([morph.surface for morph in chunk.morphs]))
+            # print("dst={}, srcs={}".format(chunk.dst, chunk.srcs))
 
     # for chunk in chunk_sentence_list[5]:
-    #     print("".join([morph.surface for morph in chunk.morphs]))
-    #     print("dst={}, srcs={}".format(chunk.dst, chunk.srcs))
-    #     print()
+    for chunk in chunk_sentence_list[7]:
+        print("".join([morph.surface for morph in chunk.morphs]))
+        print("dst={}, srcs={}".format(chunk.dst, chunk.srcs))
+        print()

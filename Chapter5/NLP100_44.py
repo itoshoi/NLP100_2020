@@ -7,7 +7,7 @@ sentence_list = NLP100_41.get_chunk_sentence_list(fname)
 
 # 全部の行でやると9000枚くらいの画像ファイルができるからさすがにやめた
 # for sentence in sentence_list:
-sentence = sentence_list[5]
+sentence = sentence_list[7]
 edges = []
 for chunk in sentence:
     if chunk.dst != -1:

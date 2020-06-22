@@ -26,7 +26,8 @@ def get_sentence_list():
     sentence = []
     with open(fname) as f:
         for line in f:
-            if line == "EOS\n" and 0 < len(sentence):
+            # if line == "EOS\n" and 0 < len(sentence):
+            if line == "EOS\n":
                 result_list.append(sentence[:])
                 sentence.clear()
                 continue

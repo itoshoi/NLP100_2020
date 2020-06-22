@@ -1,5 +1,5 @@
 '''
-46. 動詞の格フレーム情報の抽出Permalink
+46. 動詞の格フレーム情報の抽出
 45のプログラムを改変し，述語と格パターンに続けて項（述語に係っている文節そのもの）をタブ区切り形式で出力せよ．
 45の仕様に加えて，以下の仕様を満たすようにせよ．
 
@@ -33,3 +33,4 @@ for sentence in sentence_list:
                 result += " ".join(filter(lambda l: l != "", ["".join(
                     set([sentence[i].get_morphs_surface() for m in sentence[i].morphs if m.pos == "助詞"])) for i in chunk.srcs]))
                 print(result)
+    print()

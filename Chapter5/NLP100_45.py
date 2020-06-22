@@ -37,6 +37,6 @@ for sentence in sentence_list:
 
 '''
 UNIX コマンド
-sort NLP100_45_result.txt | uniq -c | sort -r > NLP100_45_unix.txt
-grep 'する|見る|与える' NLP100_45_result.txt | sort | uniq -c | sort -r > NLP100_45_unix2.txt
+sort NLP100_45_result.txt | uniq -c | sort -r -n > NLP100_45_unix.txt
+grep -E 'する|見る|与える' NLP100_45_result.txt | sort | uniq -c | sort -r -n > NLP100_45_unix2.txt
 '''
