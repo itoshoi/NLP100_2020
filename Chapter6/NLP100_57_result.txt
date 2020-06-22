@@ -1,0 +1,58 @@
+Top10 High Scores
+business
+           0        1        2          3  ...        6          7        8        9
+特徴量     bank      fed      ecb  argentina  ...  ukraine  obamacare   yellen      buy
+重み   2.02932  1.78959  1.74908    1.56863  ...  1.54866    1.54792  1.51873  1.50608
+
+[2 rows x 10 columns]
+
+entertainment
+              0        1       2  ...        7        8      9
+特徴量  kardashian     paul   chris  ...    cyrus  thrones    kim
+重み      1.59624  1.50283  1.4824  ...  1.31906   1.3148  1.306
+
+[2 rows x 10 columns]
+
+health
+          0        1        2        3  ...        6        7           8        9
+特徴量   ebola      fda   cancer     mers  ...      cdc    cases  cigarettes  doctors
+重み   2.6423  2.34621  2.15363  1.87009  ...  1.64814  1.62161     1.61689  1.55599
+
+[2 rows x 10 columns]
+
+science and technology
+           0         1          2  ...        7        8        9
+特徴量   google  facebook  microsoft  ...    tesla     moon     nasa
+重み   2.75993   2.66135    2.36763  ...  1.81986  1.78063  1.75263
+
+[2 rows x 10 columns]
+
+Top10 Low Scores
+business
+              0        1        2  ...         7         8           9
+特徴量  activision    aereo      cap  ...     video     heart  heartbleed
+重み     -1.85911 -1.41854 -1.28599  ... -0.982596 -0.924824   -0.919544
+
+[2 rows x 10 columns]
+
+entertainment
+           0        1        2        3  ...        6        7        8        9
+特徴量   google       gm    china  billion  ...  climate    study  economy     data
+重み  -1.64431 -1.24687 -1.24655  -1.2178  ... -1.10623 -1.06882 -1.06003 -1.05071
+
+[2 rows x 10 columns]
+
+health
+            0         1         2  ...        7         8         9
+特徴量     dimon        gm  facebook  ...  alibaba   explain      game
+重み  -0.864712 -0.853494 -0.811485  ... -0.62919 -0.618022 -0.590855
+
+[2 rows x 10 columns]
+
+science and technology
+           0         1         2  ...         7         8         9
+特徴量   stocks   percent     grows  ...      move   thrones    office
+重み  -1.33703 -0.983334 -0.925685  ... -0.795537 -0.772811 -0.771919
+
+[2 rows x 10 columns]
+
