@@ -1,0 +1,15 @@
+           Word 1    Word 2  Human (mean)  W2V Similarity
+0            love       sex          6.77        0.263938
+1           tiger       cat          7.35        0.517296
+2           tiger     tiger         10.00        1.000000
+3            book     paper          7.46        0.363463
+4        computer  keyboard          7.62        0.396392
+..            ...       ...           ...             ...
+348        shower     flood          6.03        0.129479
+349       weather  forecast          8.34        0.362721
+350      disaster      area          6.25        0.145228
+351      governor    office          6.34        0.296636
+352  architecture   century          3.78        0.143093
+
+[353 rows x 4 columns]
+SpearmanrResult(correlation=0.7000166486272194, pvalue=2.86866666051422e-53)
