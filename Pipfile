@@ -18,6 +18,8 @@ spacy = "*"
 sklearn = "*"
 pandas = "*"
 seaborn = "*"
+gensim = "*"
+bhtsne = "*"
 
 [requires]
 python_version = "3.7"
