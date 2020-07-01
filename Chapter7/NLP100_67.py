@@ -23,9 +23,10 @@ def get_counties(fname):
             else:
                 # カテゴリーにcapitalが含まれる場合は国名に関係することにする
                 if 'capital' in target_category:
-                    countries.add(l_sp[0])
+                    # countries.add(l_sp[0])
                     countries.add(l_sp[1])
-                    countries.add(l_sp[2])
+                    # countries.add(l_sp[2])
+                    countries.add(l_sp[3])
 
     # k-meansでインデックスが大事になるのでsetからlistにしておく
     countries = list(countries)

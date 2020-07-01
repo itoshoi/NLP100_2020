@@ -20,6 +20,7 @@ pandas = "*"
 seaborn = "*"
 gensim = "*"
 bhtsne = "*"
+annoy = "*"
 
 [requires]
 python_version = "3.7"

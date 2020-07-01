@@ -1,5 +1,5 @@
 '''
-68. Ward法によるクラスタリングPermalink
+68. Ward法によるクラスタリング
 国名に関する単語ベクトルに対し，Ward法による階層型クラスタリングを実行せよ．
 さらに，クラスタリング結果をデンドログラムとして可視化せよ．
 '''
@@ -13,7 +13,7 @@ def ward_clusturing(model, countries):
     # 国に関する語の特徴量リスト
     country_vecs = [model[country] for country in countries]
 
-    # ward法によるクラスタリング
+    # Ward法によるクラスタリング
     plt.figure(figsize=(30, 10))
     z = linkage(country_vecs, method='ward')
     # デンドログラムの作成

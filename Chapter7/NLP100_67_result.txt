@@ -1,10 +1,10 @@
 cluster 0
-Nouakchott Luanda Khartoum Bujumbura Gaborone Antananarivo Abuja Harare Conakry Dakar Lilongwe Lusaka Banjul Niamey Accra Kampala Mogadishu Libreville Maputo Monrovia Asmara Bamako Nairobi Kigali Windhoek
+Tunisia Somalia Jordan Qatar Oman Bhutan Lebanon Bangladesh Morocco Syria Bahrain Libya Egypt Nepal Iran Iraq Pakistan Afghanistan
 cluster 1
-Montenegro Poland England Malta Iran Portugal Bulgaria Serbia Macedonia Norway Indonesia Croatia Greenland Hungary Finland Kyrgyzstan Philippines Pakistan Austria Moldova Bangladesh China Uzbekistan Syria Sweden Bahrain Taiwan Ukraine Belgium Tuvalu Switzerland Kazakhstan Italy Jordan Slovakia Liechtenstein Afghanistan Lebanon Slovenia Lithuania Albania Denmark Cyprus Germany Russia Spain Turkmenistan Belarus Vietnam Georgia Turkey Romania Armenia Japan Ireland Laos Greece Thailand Latvia Oman Australia Estonia Bhutan France Qatar Nepal Canada Tajikistan Iraq Azerbaijan
+Latvia Serbia Switzerland Austria Denmark Finland Albania Romania Bulgaria Greece Croatia Liechtenstein Portugal Italy England Slovakia Cyprus Poland Montenegro Malta Germany Macedonia Lithuania Slovenia France Spain Ireland Norway Estonia Hungary Belgium Sweden
 cluster 2
-Guinea Dominica Mali Samoa Malawi Ecuador Egypt Niger Somalia Zambia Belize Uganda Fiji Eritrea Namibia Nicaragua Ghana Angola Mozambique Morocco Venezuela Sudan Guyana Cuba Algeria Bahamas Senegal Tunisia Rwanda Chile Zimbabwe Gabon Gambia Burundi Honduras Liberia Jamaica Peru Kenya Nigeria Suriname Uruguay Libya Botswana Madagascar Mauritania
+Greenland Thailand Bahamas Venezuela Philippines Guyana Australia Indonesia Honduras Canada China Uruguay Japan Nicaragua Ecuador Suriname Dominica Cuba Vietnam Samoa Peru Tuvalu Belize Chile Fiji Jamaica Taiwan Laos
 cluster 3
-Bratislava Belgrade Stockholm Bishkek Nicosia Bucharest Tirana Astana Berlin Budapest Zagreb Tashkent Chisinau Tbilisi Vaduz Sofia Helsinki Dushanbe Vilnius Kiev Ankara Baku Skopje Yerevan Warsaw Ljubljana Oslo Tehran Ashgabat Riga Tallinn Vienna Brussels Minsk Podgorica Moscow
+Kazakhstan Ukraine Kyrgyzstan Azerbaijan Georgia Belarus Moldova Turkmenistan Tajikistan Uzbekistan Turkey Russia Armenia
 cluster 4
-Lima Caracas Tegucigalpa Algiers Montevideo Amman Funafuti Baghdad Jakarta Madrid Belmopan Beirut Dhaka Doha Georgetown Lisbon Beijing Tokyo Paris Roseau Suva Tripoli Vientiane Santiago London Managua Copenhagen Hanoi Nuuk Havana Kabul Ottawa Manila Apia Rabat Thimphu Kingston Canberra Cairo Paramaribo Nassau Tunis Valletta Bangkok Damascus Manama Rome Islamabad Quito Athens Muscat Bern Kathmandu Taipei Dublin
+Sudan Botswana Nigeria Madagascar Mali Gabon Malawi Guinea Uganda Algeria Niger Kenya Burundi Rwanda Senegal Mauritania Liberia Zimbabwe Ghana Zambia Namibia Eritrea Gambia Angola Mozambique
