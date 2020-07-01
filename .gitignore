@@ -1,1 +1,2 @@
 cabocha-0.69/
+find . -size +100M | sed -e 's/^\.\///' >> .gitignore
