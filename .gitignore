@@ -1,2 +1,8 @@
 cabocha-0.69/
 find . -size +100M | sed -e 's/^\.\///' >> .gitignore
+.git/objects/pack/pack-49ab4ce812efcaa2d30f410890842f4e02aae6e8.pack
+.git/objects/pack/pack-7b04971a215d68f1a6b82f7adefd6f8b5dab9af9.pack
+Chapter6/train.feature.txt
+Chapter7/GoogleNews-vectors-negative300.bin.gz
+Chapter7/vectors.model
+Chapter7/vectors.model.vectors.npy

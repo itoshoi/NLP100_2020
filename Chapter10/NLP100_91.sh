@@ -1,0 +1,1 @@
+fairseq-preprocess -s ja -t en --trainpref kftt-data-1.0/data/tok/kyoto-train --validpref kftt-data-1.0/data/tok/kyoto-dev --testpref kftt-data-1.0/data/tok/kyoto-test

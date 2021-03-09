@@ -1,0 +1,52 @@
+--- Kyoto Free Translation Task alignment data package ---
+Alignments created by Graham Neubig
+alignment-tool.jar created by Soichiro Hayashi
+
+This package includes alignment data for Japanese-English translation for use
+with the Kyoto Free Translation task. It contains a total of 15 wikipedia
+articles corresponding to the "tuning" section of the task.
+
+The original alignment data was created by two bilingual annotators, and
+re-checked for accuracy to ensure that it matched the annotation standard.
+
+The alignments are also split into standard development and test sets so the
+data may be used for experimenting with new alignment methods. The development
+set consists of sections 001-008, while the test set consists of sections
+009-015.
+
+It includes:
+standard.txt: A file describing the standard used to annotate alignments
+data/
+  japanese-*.txt:   The Japanese sentences (tokenized)
+  english-*.txt:    The English sentences (tokenized and lower-cased)
+  align-*.txt:      The alignment data created by taking the intersection
+                    of both annotators, and performing a final quality check
+                    to ensure that it matched the alignment standard
+
+orig/
+  japanese-*.txt:   The Japanese sentences (original)
+  english-*.txt:    The English sentences (original)
+
+annotator[12]/:     Files created by each annotator
+  align-*.txt:      The alignment files
+  align.acc:        The accuracy of this annotator when compared to the final
+                    alignments
+  agree.acc:        How well the annotator agrees with the other annotator
+
+giza/               Alignments automatically created by GIZA++
+  align-*.txt:      The alignments
+  align.acc:        The accuracy of the alignments
+
+bin/
+  measure-alignment-accuracy.pl:   A program to measure alignment accuracy
+  alignment-tool.jar:              A tool for visualizing and creating 
+
+--- More information ---
+More information about the Kyoto Free Translation Task can be found at
+http://www.phontron.com/kftt
+
+This data was developed in part with the support of the JSPS research fellowship for young scientists.
+
+--- Licensing ---
+All data is distributed under the Creative Commons License ver. 3.0.
+http://creativecommons.org/licenses/by-sa/3.0/

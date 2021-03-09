@@ -21,6 +21,9 @@ seaborn = "*"
 gensim = "*"
 bhtsne = "*"
 annoy = "*"
+torch = "*"
+torchvision = "*"
+7480ce1 = {editable = true,path = "./fairseq"}
 
 [requires]
 python_version = "3.7"

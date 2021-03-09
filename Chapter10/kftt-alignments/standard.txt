@@ -1,0 +1,64 @@
+In general, all alignments are treated as "certain" alignments, except those
+that are parenthesized (to be explained later).
+
+---- Function Words ----
+
+1) Particles of Japanese words that correspond to subjects or direct objects
+   in English should not be aligned.
+
+   e.g.: J: 彼 は ご飯 を 食べ た
+         E: He ate rice
+         should not have "は" or "を" aligned to anything
+   
+   "で あ る" (is), "で あ っ た" (was), etc. are exceptions, with "で" being
+   aligned.
+
+2) English articles such as "the" and "a" should not be aligned to anything,
+   except when the occur as part of a phrase that surrounds them on both sides
+
+3) Punctuation may be aligned to words when necessary
+
+   e.g.: J: 彼 は レストラン に 行き 、 ご飯 を 食べた
+         E: He went to the restaurant and ate rice
+         Here "、" should be aligned to "and"
+
+4) A Japanse "particle + verb" phrase that acts as a preposition should be
+   fully aligned to the preposition
+
+    e.g.: J: それ は 彼 を 通じ て 報告 さ れ た
+          E: It was announced through him
+          Here "を 通じ て" should be aligned to "through"
+
+---- Verbs ----
+
+1) When there is only a verb in English, the whole verb phrase in Japanes should
+   be aligned
+
+   e.g.: J: 彼 は 食べ て い た
+         E: He ate
+         Here "ate" should be aligned to "食べ て い た"
+
+2) When there is a verb and "be" or an auxiliary in English, the English verb
+   should be aligned to the verb stem, and the rest of the verb phrase should
+   be aligned to a modal.
+
+   e.g.: J: 彼 は 食べ て い た
+         E: He was eating
+         Here, "eating" should align to "食べ" and "was" should align to 
+         "て い た"
+
+--- NOUNS ---
+
+1) For phrases such as "hongan-ji temple" "本願 寺", "寺" should be aligned to 
+   both words.
+
+2) When there is parenthesized explanation that repeats the same semantic
+   content twice (to indicate pronunciation, or to explain a foreign term),
+   align the words to both the parenthesized and unparenthesized versions.
+   Leave the parentheses unaligned. The parenthesized version will be treated
+   as an optional alignment.
+
+    e.g: J: 親鸞 （ しんらん ）
+         E: shinran
+　      "shinran" should be aligned to both "親鸞" and "しんらん"
+

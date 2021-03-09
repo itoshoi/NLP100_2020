@@ -1,0 +1,14 @@
+Namespace(align_suffix=None, alignfile=None, all_gather_list_size=16384, bf16=False, bpe=None, checkpoint_suffix='', cpu=False, criterion='cross_entropy', dataset_impl='mmap', destdir='data-bin', empty_cache_freq=0, fp16=False, fp16_init_scale=128, fp16_no_flatten_grads=False, fp16_scale_tolerance=0.0, fp16_scale_window=None, joined_dictionary=False, log_format=None, log_interval=100, lr_scheduler='fixed', memory_efficient_bf16=False, memory_efficient_fp16=False, min_loss_scale=0.0001, model_parallel_size=1, no_progress_bar=False, nwordssrc=-1, nwordstgt=-1, only_source=False, optimizer='nag', padding_factor=8, profile=False, quantization_config_path=None, seed=None, source_lang='ja', srcdict=None, target_lang='en', task='translation', tensorboard_logdir='', testpref='kftt-data-1.0/data/tok/kyoto-test', tgtdict=None, threshold_loss_scale=None, thresholdsrc=0, thresholdtgt=0, tokenizer=None, tpu=False, trainpref='kftt-data-1.0/data/tok/kyoto-train', user_dir=None, validpref='kftt-data-1.0/data/tok/kyoto-dev', workers=1)
+[ja] Dictionary: 146832 types
+[ja] kftt-data-1.0/data/tok/kyoto-train.ja: 440288 sents, 12359715 tokens, 0.0% replaced by <unk>
+[ja] Dictionary: 146832 types
+[ja] kftt-data-1.0/data/tok/kyoto-dev.ja: 1166 sents, 28010 tokens, 0.518% replaced by <unk>
+[ja] Dictionary: 146832 types
+[ja] kftt-data-1.0/data/tok/kyoto-test.ja: 1160 sents, 29638 tokens, 0.55% replaced by <unk>
+[en] Dictionary: 221864 types
+[en] kftt-data-1.0/data/tok/kyoto-train.en: 440288 sents, 11981667 tokens, 0.0% replaced by <unk>
+[en] Dictionary: 221864 types
+[en] kftt-data-1.0/data/tok/kyoto-dev.en: 1166 sents, 25475 tokens, 1.79% replaced by <unk>
+[en] Dictionary: 221864 types
+[en] kftt-data-1.0/data/tok/kyoto-test.en: 1160 sents, 27894 tokens, 1.55% replaced by <unk>
+Wrote preprocessed data to data-bin
